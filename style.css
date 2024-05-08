@@ -13,20 +13,18 @@ body {
     height: 2277px;
 }
 
-#main {
+.main {
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     margin-top: 110px;
 }
 
-.icon-person {
-    border: 1px solid black;
-    height: 30px;
-    width: 30px;
+#icon-doctor{
+    font-size: 23px;
+    color: #39AEA9;
 }
-
 .main-title {
     font-family: "Open sans", sans-serif;
     font-weight: normal;
@@ -34,4 +32,59 @@ body {
     letter-spacing: 2px;
     text-align: left;
     color: var(--color-buttons-borders);
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 10px;
+    width: 118px;
+    height: 240px;
+}
+
+.profile-picture {
+    display: inline-block;
+    width: 118px;
+    height: 119px;
+    border-radius: 50%;
+    background-size: cover;
+    background: no-repeat padding-box;
+    opacity: 1;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 13px;
+    margin-top: 18px;
+}
+
+.profile-buttons {
+    width: 118px;
+    height: 39px;
+    border: 1px solid var(--color-buttons-borders);
+    border-radius: 4px;
+    opacity: 1;
+}
+
+#message {
+    background: var(--color-buttons-borders) 0% 0% no-repeat padding-box;
+    font-family: "Open sans", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.94px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#editButton {
+    background: 0% 0% no-repeat padding-box;
+    font-family: "Open sans", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.94px;
+    color: var(--color-buttons-borders);
+    opacity: 1;
 }
