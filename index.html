@@ -4,49 +4,44 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="style.css" rel="stylesheet">
-    <link href="assets/fontawesome-free-6.5.2-web/css/fontawesome.css" rel="stylesheet">
-    <link href="assets/fontawesome-free-6.5.2-web/css/solid.css" rel="stylesheet">
-    <link href="assets/fontawesome-free-6.5.2-web/css/brands.css" rel="stylesheet">
+    <link href="assets/fontawesome-free/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/fontawesome-free/css/solid.css" rel="stylesheet">
+    <link href="assets/fontawesome-free/css/brands.css" rel="stylesheet">
     <title>Sport diary</title>
 </head>
 <body>
 <div class="main">
-    <i id="icon-doctor" class="fa-solid fa-user-doctor"></i>
+    <i class="fa-solid fa-user-doctor" id="icon-doctor"></i>
     <h1 class="main-title">Profile</h1>
 </div>
 <div class="main-profile">
     <div class="avatar">
         <img alt="profile picture" class="profile-picture" src="assets/pics/profile_pic.JPG"/>
-        <div class="buttons">
-            <button class="profile-buttons" id="message">MESSAGE</button>
-            <button class="profile-buttons" id="editButton">EDIT PROFILE</button>
-        </div>
+        <button class="profile-buttons" id="message">MESSAGE</button>
+        <button class="profile-buttons" id="editButton">EDIT PROFILE</button>
     </div>
     <section class="personal-info">
-        <h2>name</h2>
-        <div class="info-list">
-            <div>AGE:</div>
-            <div>25</div>
-            <div>EMAIL:</div>
-            <div>Slav_ivanov@gmail.com</div>
-            <div>DEVICE:</div>
-            <div>No device assingned.
-                <a href="#">Assign device</a>
-            </div>
-            <div>ADRESS:</div>
-            <div>Sofia City, Gurko Str. 145B</div>
-            <div>PHONE:</div>
-            <div>+359 888 754 743</div>
+        <h2>Slav Ganev Ivanov</h2>
+        <div class="inline-text">
+            <div>AGE:<span>25</span></div>
+            <div>ADRESS:<span>Sofia City, Gurko Str. 145B</span></div>
         </div>
-    </section>
-    <section class="additional-info">
-        <section id="condition">
-            <h4>CONDITIONS</h4>
-            <p>Lorem ipsum</p>
-        </section>
-        <section id="docs">
-            <h4>DOCS</h4>
-            <p>Lorem ipsum</p>
+        <div class="inline-text">
+            <div>EMAIL:<span>slav_ivanov@gmail.com</span></div>
+            <div>PHONE:<span>+359 888 754 743</span></div>
+        </div>
+        <div class="inline-text">
+            <div>DEVICE:<span>No device assigned.</span></div>
+        </div>
+        <section class="additional-info">
+            <section id="condition">
+                <h4>CONDITIONS</h4>
+                <p class="condition-text">Lorem ipsum</p>
+            </section>
+            <section id="docs">
+                <h4>DOCS</h4>
+                <p class="docs-text">Lorem ipsum</p>
+            </section>
         </section>
     </section>
 </div>
