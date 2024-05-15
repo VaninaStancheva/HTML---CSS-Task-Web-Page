@@ -20,10 +20,11 @@ body {
     margin-top: 110px;
 }
 
-#icon-doctor{
+#icon-doctor {
     font-size: 23px;
     color: #39AEA9;
 }
+
 .main-title {
     font-family: "Open sans", sans-serif;
     font-weight: normal;
@@ -84,7 +85,7 @@ body {
 
 .personal-info {
     display: inline-block;
-    width: 40%;
+    width: 38%;
     margin-left: 50px;
 }
 
@@ -124,27 +125,28 @@ body {
 .additional-info {
     font-family: "Open sans", sans-serif;
     font-weight: normal;
-    margin-top: 25px;
-    display: flex;
-    justify-content: start;
-    gap: 27px;
+    margin-top: 10px;
 }
 
-.condition {
-
-
- }
+.inline-titles-add-info {
+    display: flex;
+    align-content: space-between;
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #818588;
+    line-height: 0;
+}
 
 .title-condition {
-    margin: 0 0 10px 0;
 }
 
-.condition-text {
-    margin-left: 10px;
+.horizontal-line-condition {
+    width: 10%;
 }
 
 .title-docs {
-    margin: 0 0 10px 0;
+    padding-left: 5%;
 }
 
 .horizontal-line-condition {
@@ -153,6 +155,7 @@ body {
     border-radius: 3px;
     margin: 0 0 20px 0;
 }
+
 .horizontal-line-docs {
     display: none;
     border: 3px solid #39AEA9;
