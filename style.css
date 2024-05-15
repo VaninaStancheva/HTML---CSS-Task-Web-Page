@@ -84,7 +84,16 @@ body {
 
 .personal-info {
     display: inline-block;
-    width: 50%;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.user-name {
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #5B5151;
+    margin: 0 0 20px 0;
 }
 
 .inline-text {
@@ -92,7 +101,6 @@ body {
     font-family: "Open sans", sans-serif;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 6%;
     color: #818588;
     line-height: 0;
 }
@@ -116,21 +124,43 @@ body {
 .additional-info {
     font-family: "Open sans", sans-serif;
     font-weight: normal;
-    margin-top: 35px;
-    margin-left: 6%;
+    margin-top: 25px;
     display: flex;
     justify-content: start;
     gap: 27px;
+}
+
+.condition {
+
+
+ }
+
+.title-condition {
+    margin: 0 0 10px 0;
+}
+
+.condition-text {
+    margin-left: 10px;
+}
+
+.title-docs {
+    margin: 0 0 10px 0;
+}
+
+.horizontal-line-condition {
+    display: block;
+    border: 3px solid #39AEA9;
+    border-radius: 3px;
+    margin: 0 0 20px 0;
+}
+.horizontal-line-docs {
+    display: none;
+    border: 3px solid #39AEA9;
+    border-radius: 3px;
 }
 
 .docs-text {
     display: none;
 }
 
-.user-name {
-    font-family: "Open sans", sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    color: #5B5151;
-    margin: 0 0 20px 50px;
-}
+
