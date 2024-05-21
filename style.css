@@ -138,9 +138,6 @@ body {
     line-height: 0;
 }
 
-.title-condition {
-}
-
 .horizontal-line-condition {
     width: 10%;
 }
@@ -166,4 +163,27 @@ body {
     display: none;
 }
 
+.title-last-session {
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #818588;
+    line-height: 0;
+}
+
+.cards-last-session{
+    display: inline-block;
+}
+
+.cards-container {
+    display: flex;
+    margin-top: 58px;
+}
+
+.card {
+    width: 208px;
+    height: 208px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    margin-right: 20px;
+}
 
