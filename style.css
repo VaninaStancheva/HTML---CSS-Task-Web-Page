@@ -8,15 +8,15 @@
 body {
     background: var(--color-background) 0 0 no-repeat padding-box;
     opacity: 1;
-    margin: 0 200px;
+    padding: 0 100px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .main {
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
     margin-top: 110px;
 }
 
@@ -36,7 +36,7 @@ body {
 
 .main-profile {
     display: flex;
-    margin-top: 1%;
+    align-content: space-between;
 }
 
 .avatar {
@@ -80,7 +80,6 @@ body {
     font-size: 12px;
     letter-spacing: 1px;
     color: var(--color-buttons-borders);
-    opacity: 1;
 }
 
 .personal-info {
@@ -178,12 +177,14 @@ body {
 .cards-container {
     display: flex;
     margin-top: 58px;
+    align-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .card {
-    width: 208px;
-    height: 208px;
     background: #FFFFFF 0 0 no-repeat padding-box;
-    margin-right: 20px;
+    box-sizing: border-box;
+    width: 40%;
 }
 
