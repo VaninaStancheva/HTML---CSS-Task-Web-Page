@@ -8,8 +8,8 @@
 body {
     background: var(--color-background) 0 0 no-repeat padding-box;
     opacity: 1;
-    padding: 0 100px;
-    width: 100%;
+    padding: 0 190px;
+    width: 100vw;
     box-sizing: border-box;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .personal-info {
     display: inline-block;
-    width: 38%;
+    width: 56%;
     margin-left: 50px;
 }
 
@@ -168,23 +168,56 @@ body {
     font-size: 15px;
     color: #818588;
     line-height: 0;
+    margin-bottom: 25px;
 }
 
-.cards-last-session{
-    display: inline-block;
+.cards-last-session {
+    box-sizing: border-box;
+    width: 48%;
+    margin-left: 75px;
+    margin-top: 42px;
 }
 
 .cards-container {
     display: flex;
-    margin-top: 58px;
-    align-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-sizing: border-box;
-    width: 40%;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+    align-content: center;
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #818588;
 }
 
+.measures {
+    font-size: 25px;
+}
+
+.unit {
+    font-weight: normal;
+}
+
+.size-icon {
+    font-size: 51px;
+    margin: 5px 0;
+}
+
+.fa-heart-pulse {
+    color: #E66341;
+}
+
+.fa-heart {
+    color: #FFCD00;
+}
+
+.fa-circle-check {
+    color: #39AEA9;
+}
