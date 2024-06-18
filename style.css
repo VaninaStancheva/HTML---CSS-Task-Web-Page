@@ -23,6 +23,7 @@ body {
 #icon-doctor {
     font-size: 23px;
     color: #39AEA9;
+    margin-right: 10px;
 }
 
 .main-title {
@@ -57,14 +58,11 @@ body {
     margin-bottom: 20%;
 }
 
-.profile-buttons {
+.profile-button-message {
     width: 118px;
     height: 39px;
     border: 1px solid var(--color-buttons-borders);
     border-radius: 4px;
-}
-
-#message {
     background: var(--color-buttons-borders) 0% 0% no-repeat padding-box;
     font-family: "Open sans", sans-serif;
     font-weight: normal;
@@ -73,7 +71,11 @@ body {
     color: #FFFFFF;
 }
 
-#editButton {
+.profile-button-edit {
+    width: 118px;
+    height: 39px;
+    border: 1px solid var(--color-buttons-borders);
+    border-radius: 4px;
     background: 0 0 no-repeat padding-box;
     font-family: "Open sans", sans-serif;
     font-weight: normal;
@@ -121,6 +123,18 @@ body {
     font-size: 15px;
 }
 
+.no-device {
+    font-style: italic;
+}
+
+.assign-device {
+    font-family: "Open sans", sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #39AEA9;
+}
+
 .additional-info {
     font-family: "Open sans", sans-serif;
     font-weight: normal;
@@ -137,10 +151,6 @@ body {
     line-height: 0;
 }
 
-.horizontal-line-condition {
-    width: 10%;
-}
-
 .title-docs {
     padding-left: 5%;
 }
@@ -150,6 +160,7 @@ body {
     border: 3px solid #39AEA9;
     border-radius: 3px;
     margin: 0 0 20px 0;
+    width: 10.5%;
 }
 
 .horizontal-line-docs {
@@ -168,7 +179,7 @@ body {
     font-size: 15px;
     color: #818588;
     line-height: 0;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .cards-last-session {
@@ -220,4 +231,11 @@ body {
 
 .fa-circle-check {
     color: #39AEA9;
+}
+
+.sessions {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
 }
