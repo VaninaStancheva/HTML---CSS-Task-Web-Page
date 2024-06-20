@@ -173,10 +173,10 @@ body {
     display: none;
 }
 
-.title-last-session {
+.title-session {
     font-family: "Open sans", sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
     color: #818588;
     line-height: 0;
     margin-bottom: 30px;
@@ -239,6 +239,7 @@ body {
     grid-template-columns: auto auto auto auto;
     gap: 30px;
     grid-column-gap: 60px;
+    justify-content: space-between;
 }
 
 .new-session-card {
@@ -252,6 +253,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     color: #818588;
+    position: relative;
 }
 
 .person-picture {
@@ -268,6 +270,7 @@ body {
 
 .fa-comment-alt {
     color: #39AEA9;
+    margin-bottom: 36px;
 }
 
 .start-sessionBtn {
@@ -283,5 +286,23 @@ body {
     font-family: "Open sans", sans-serif;
     font-size: 14px;
     height: 55px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
+.history-and-form {
+    margin-top: 92px;
+}
+
+.session-history-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 46%;
+}
+
+.fa-arrow-up-wide-short {
+    color: #39AEA9;
+}
