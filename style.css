@@ -165,13 +165,18 @@ body {
     border: 3px solid #39AEA9;
     border-radius: 3px;
     margin: 0 0 20px 0;
-    width: 10.5%;
+    width: 12%;
 }
 
 .horizontal-line-docs {
     display: none;
     border: 3px solid #39AEA9;
     border-radius: 3px;
+}
+
+.condition-text {
+    font-family: "Open sans", sans-serif;
+    color:#818588;
 }
 
 .docs-text {
