@@ -10,6 +10,7 @@ body {
     width: 100vw;
     box-sizing: border-box;
     overflow-x: hidden;
+
 }
 
 .main {
@@ -248,7 +249,7 @@ body {
 .sessions {
     margin-top: 90px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     grid-column-gap: 60px;
     justify-content: space-between;
@@ -257,7 +258,6 @@ body {
 .new-session-card {
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-sizing: border-box;
-    width: 330px;
     height: 303px;
     text-align: center;
     align-content: center;
@@ -268,6 +268,44 @@ body {
     position: relative;
 }
 
+.dots {
+    font-size: 17px;
+    color: #39AEA9;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+
+.edit-delete-session {
+    background: white;
+    font-family: "Open sans", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #818588;
+    width: 112px;
+    height: 95px;
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 3px 6px #DDDCD7;
+    padding-left: 24px;
+    position: absolute;
+    top: 22px;
+    left: 175px;
+}
+
+.dots:hover + .edit-delete-session{
+        display: flex;
+}
+
+.edit:hover {
+    color: #39AEA9;
+}
+
+.delete:hover {
+    color: #39AEA9;
+}
 .person-picture {
     display: inline-block;
     width: 100px;
