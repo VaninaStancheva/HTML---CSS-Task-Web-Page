@@ -296,22 +296,43 @@ body {
 }
 
 .dots:hover + .edit-delete-session{
-        display: flex;
+    display: flex;
 }
 
-.edit:hover {
+.edit-delete-session:hover, .edit-delete-session:focus {
+    display:flex;
+}
+
+.edit:hover, .delete:hover {
     color: #39AEA9;
 }
 
-.delete:hover {
-    color: #39AEA9;
-}
 .person-picture {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 32%;
+    height: 104px;
     border-radius: 50%;
     background: no-repeat padding-box;
+    border: 1px solid #EDEFF8;
+}
+
+.circle {
+    display: inline-block;
+    width: 32%;
+    height: 104px;
+    border-radius: 50%;
+    background: no-repeat padding-box #C3E6E0;
+    border: 1px solid #EDEFF8;
+    font-family: "Open sans", sans-serif;
+    font-weight: normal;
+    font-size: 21px;
+    color: #39AEA9;
+    align-content: center;
+}
+
+.pictures-overlap-container {
+    display: flex;
+    position: relative;
 }
 
 .size-message-icon {
