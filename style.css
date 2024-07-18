@@ -313,6 +313,7 @@ body {
     height: 104px;
     border-radius: 50%;
     background: no-repeat padding-box;
+    background-color: white;
     border: 1px solid #EDEFF8;
 }
 
@@ -331,8 +332,32 @@ body {
 }
 
 .pictures-overlap-container {
-    display: flex;
     position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img_stack-top {
+    z-index: 3;
+    left: 38px;
+}
+
+.img_stack-middle {
+    z-index: 2;
+    left: 120px;
+}
+
+.img_stack-bottom {
+    z-index: 1;
+    left: 192px;
 }
 
 .size-message-icon {
