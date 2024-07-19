@@ -402,3 +402,46 @@ body {
 .fa-arrow-up-wide-short {
     color: #39AEA9;
 }
+
+.session-history {
+    width: 48%;
+}
+
+.form {
+    width: 48%;
+}
+
+.history-form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exercise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 22px;
+    height: 68px;
+    margin-bottom: 20px;
+}
+
+.title-exercise {
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #39AEA9;
+}
+
+.watch-exerciseBtn {
+    background: #EFF8F6 0 0 no-repeat padding-box;
+    border-style: hidden;
+    border-radius: 21px;
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #39AEA9;
+    width: 30%;
+    height: 42px;
+}
