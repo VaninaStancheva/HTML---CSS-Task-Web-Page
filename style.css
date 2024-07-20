@@ -397,6 +397,7 @@ body {
     justify-content: space-between;
     align-items: baseline;
     width: 46%;
+    margin-bottom: 45px;
 }
 
 .fa-arrow-up-wide-short {
@@ -407,16 +408,12 @@ body {
     width: 48%;
 }
 
-.form {
-    width: 48%;
-}
-
 .history-form-container {
     display: flex;
     justify-content: space-between;
 }
 
-.exercise {
+.exercise-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -444,4 +441,69 @@ body {
     color: #39AEA9;
     width: 30%;
     height: 42px;
+}
+
+.play-icon {
+    margin-right: 20px;
+}
+
+.form {
+    width: 40%;
+    background-color: #C3E6E0;
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    color: #818588;
+    padding: 86px 44px 86px 76px;
+}
+
+.labelStar{
+    margin-right: 8.2%;
+}
+
+.label {
+    margin-right: 10%;
+}
+
+.star {
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    color: #E66341;
+}
+
+.form-input {
+    width: 78%;
+    height: 40px;
+    border: 2px solid #E5F5F1;
+    border-radius: 4px;
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    color: #CECFD0;
+    padding-left: 4%;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #39AEA9;
+    color: #4D4F5C;
+}
+
+.helper-txt {
+    margin-top: 5px;
+    margin-left: 17%;
+    margin-bottom: 50px;
+}
+
+.label-red {
+    color: #E66341;
+}
+
+.form-input-red {
+    width: 78%;
+    height: 40px;
+    border: 2px solid #E66341;
+    border-radius: 4px;
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    outline: none;
+    padding-left: 4%;
 }
