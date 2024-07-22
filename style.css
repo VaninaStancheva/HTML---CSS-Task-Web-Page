@@ -10,6 +10,8 @@ body {
     width: 100vw;
     box-sizing: border-box;
     overflow-x: hidden;
+    padding-left: 80px;
+    padding-right: 80px;
 
 }
 
@@ -155,6 +157,7 @@ body {
     font-size: 15px;
     color: #818588;
     line-height: 0;
+    box-sizing: border-box;
 }
 
 .title-docs {
@@ -166,8 +169,8 @@ body {
     border: 3px solid #39AEA9;
     border-radius: 3px;
     margin: 0 0 20px 0;
-    width: 12%;
-}
+    width: 10%;
+}   
 
 .horizontal-line-docs {
     display: none;
@@ -178,6 +181,7 @@ body {
 .condition-text {
     font-family: "Open sans", sans-serif;
     color:#818588;
+    padding-left: 2%;
 }
 
 .docs-text {
@@ -309,8 +313,8 @@ body {
 
 .person-picture {
     display: inline-block;
-    width: 32%;
-    height: 104px;
+    width: 31%;
+    height: 120px;
     border-radius: 50%;
     background: no-repeat padding-box;
     background-color: white;
@@ -320,7 +324,7 @@ body {
 .circle {
     display: inline-block;
     width: 32%;
-    height: 104px;
+    height: 120px;
     border-radius: 50%;
     background: no-repeat padding-box #C3E6E0;
     border: 1px solid #EDEFF8;
@@ -333,16 +337,13 @@ body {
 
 .pictures-overlap-container {
     position: relative;
-    width: 100px;
-    height: 100px;
+    height: 120px;
 }
 
 .image {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .img_stack-top {
@@ -352,12 +353,12 @@ body {
 
 .img_stack-middle {
     z-index: 2;
-    left: 120px;
+    left: 138px;
 }
 
 .img_stack-bottom {
     z-index: 1;
-    left: 192px;
+    left: 226px;
 }
 
 .size-message-icon {
@@ -411,6 +412,18 @@ body {
 .history-form-container {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+    height: 780px;
+}
+
+.session-history{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.session-history :not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .exercise-card {
@@ -421,7 +434,7 @@ body {
     box-sizing: border-box;
     padding: 22px;
     height: 68px;
-    margin-bottom: 20px;
+
 }
 
 .title-exercise {
