@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
     padding-left: 80px;
     padding-right: 80px;
-
+    padding-bottom: 160px;
 }
 
 .main {
@@ -392,8 +392,16 @@ body {
     left: 0;
 }
 
-.history-and-form {
+.history-and-form-container {
     margin-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 836px;
+}
+
+.title-session {
+    margin: 0;
 }
 
 .session-history-menu-container {
@@ -401,7 +409,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    width: 47%;
     margin-bottom: 45px;
 }
 
@@ -409,16 +416,10 @@ body {
     color: var(--color-main-theme);
 }
 
-.session-history {
-    width: 48%;
+.history-section {
+    width: 47%;
 }
 
-.history-form-container {
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    height: 780px;
-}
 
 .session-history{
     list-style: none;
@@ -471,6 +472,7 @@ body {
     font-size: 14px;
     color: #818588;
     padding: 86px 44px 86px 76px;
+    margin-top: 68px;
 }
 
 .labelStar{
