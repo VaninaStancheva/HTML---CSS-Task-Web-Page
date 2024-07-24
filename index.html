@@ -14,87 +14,62 @@
     <i class="fa-solid fa-user-doctor" id="icon-doctor"></i>
     <h1 class="main-title">Profile</h1>
 </div>
-<div class="main-profile">
-    <div class="avatar">
-        <img alt="profile picture" class="profile-picture" src="assets/pics/profile_pic.JPG"/>
-        <button class="profile-button-message" id="message">MESSAGE</button>
-        <button class="profile-button-edit" id="editButton">EDIT PROFILE</button>
-    </div>
-    <section class="personal-info">
-        <h2 class="user-name">Slav Ganev Ivanov</h2>
-        <div class="inline-text">
-            <ul class="first-column">
-                <li class="personal-info-list">
-                    <h3 class="personal-info-titles">AGE:</h3>
-                    <span class="personal-info-value">25</span>
-                </li>
-                <li class="personal-info-list">
-                    <h3 class="personal-info-titles">EMAIL:</h3>
-                    <span class="personal-info-value">slav_ivanov@gmail.com</span>
-                </li>
-                <li class="personal-info-list">
-                    <h3 class="personal-info-titles">DEVICE:</h3>
-                    <span class="personal-info-value"><span class="no-device">No device assigned.</span></span>
-                    <a class="assign-device" href="/device">Assign device</a>
-                </li>
-            </ul>
-            <ul class="second-column">
-                <li class="personal-info-list">
-                    <h3 class="personal-info-titles">ADRESS:</h3>
-                    <span class="personal-info-value">Sofia City, Gurko Str. 145B</span>
-                </li>
-                <li class="personal-info-list">
-                    <h3 class="personal-info-titles">PHONE:</h3>
-                    <span class="personal-info-value">+359 888 754 743</span>
-                </li>
-            </ul>
-</div>
-        <!-- <div class="inline-text">
-            <div class="inline-element">
-                <h3 class="personal-info-titles">AGE:</h3>
-                <span class="personal-info-value">25</span>
-            </div>
-            <div class="inline-element">
-                <h3 class="personal-info-titles">ADRESS:</h3>
-                <span class="personal-info-value">Sofia City, Gurko Str. 145B</span>
-            </div>
+<div class="master-profile">
+    <div class="main-info">
+        <div class="avatar-section">
+            <img alt="profile picture" class="profile-picture" src="assets/pics/profile_pic.JPG"/>
+            <button class="profile-button messageBtn" id="messageBtn">MESSAGE</button>
+            <button class="profile-button editBtn" id="editBtn">EDIT PROFILE</button>
         </div>
-        <div class="inline-text">
-            <div class="inline-element">
-                <h3 class="personal-info-titles">EMAIL:</h3>
-                <span class="personal-info-value">slav_ivanov@gmail.com</span>
+        <section class="personal-info-section">
+            <h2 class="user-name">Slav Ganev Ivanov</h2>
+            <div class="inline-text">
+                <ul class="first-column">
+                    <li class="personal-info-list">
+                        <h3 class="personal-info-titles">AGE:</h3>
+                        <span class="personal-info-value">25</span>
+                    </li>
+                    <li class="personal-info-list">
+                        <h3 class="personal-info-titles">EMAIL:</h3>
+                        <span class="personal-info-value">slav_ivanov@gmail.com</span>
+                    </li>
+                    <li class="personal-info-list">
+                        <h3 class="personal-info-titles">DEVICE:</h3>
+                        <span class="personal-info-value no-device">No device assigned.</span>
+                        <a class="assign-device" href="/device">Assign device</a>
+                    </li>
+                </ul>
+                <ul class="second-column">
+                    <li class="personal-info-list">
+                        <h3 class="personal-info-titles">ADRESS:</h3>
+                        <span class="personal-info-value">Sofia City, Gurko Str. 145B</span>
+                    </li>
+                    <li class="personal-info-list">
+                        <h3 class="personal-info-titles">PHONE:</h3>
+                        <span class="personal-info-value">+359 888 754 743</span>
+                    </li>
+                </ul>
             </div>
-            <div class="inline-element">
-                <h3 class="personal-info-titles">PHONE:</h3>
-                <span class="personal-info-value">+359 888 754 743</span>
-            </div>
-        </div>
-        <div class="inline-text">
-            <div class="inline-element">
-                <h3 class="personal-info-titles">DEVICE:</h3>
-                <span class="personal-info-value"><span class="no-device">No device assigned.</span></span>
-                <a class="assign-device">Assign device</a>
-            </div>
-        </div> -->
-        <section class="additional-info">
-            <div class="inline-titles-add-info">
-                <h4 class="title-condition">CONDITION</h4>
-                <h4 class="title-docs">DOCS</h4>
-            </div>
-            <section class="condition">
-                <hr class="horizontal-line-condition">
-                <p class="condition-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </section>
-            <section class="docs">
-                <hr class="horizontal-line-docs">
-                <p class="docs-text">Lorem ipsum</p>
+            <section class="additional-info">
+                <div class="inline-titles-add-info">
+                    <h4 class="title-condition">CONDITION</h4>
+                    <h4 class="title-docs">DOCS</h4>
+                </div>
+                <section class="condition">
+                    <hr class="horizontal-line-condition">
+                    <p class="condition-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </section>
+                <section class="docs">
+                    <hr class="horizontal-line-docs">
+                    <p class="docs-text">Lorem ipsum</p>
+                </section>
             </section>
         </section>
-    </section>
+    </div>
     <section class="cards-last-session">
         <h4 class="title-session">LAST SESSION</h4>
         <div class="cards-container">

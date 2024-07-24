@@ -1,7 +1,7 @@
 :root {
     --color-background: #F0F9F7;
     --color-form: #C3E6E0;
-    --color-buttons-borders: #39AEA9;
+    --color-main-theme: #39AEA9;
     --color-font: #46484E;
 }
 
@@ -24,7 +24,7 @@ body {
 
 #icon-doctor {
     font-size: 24px;
-    color: #39AEA9;
+    color: var(--color-main-theme);
     margin-right: 10px;
 }
 
@@ -34,22 +34,30 @@ body {
     font-size: 30px;
     letter-spacing: 2px;
     text-align: left;
-    color: var(--color-buttons-borders);
+    color: var(--color-main-theme);
 }
 
-.main-profile {
+.master-profile {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     box-sizing: border-box;
 }
 
-.avatar {
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+    box-sizing: border-box;
+}
+
+.avatar-section {
     display: flex;
     flex-direction: column;
     justify-content: start;
     row-gap: 10px;
     height: 240px;
-    width:8%;
+    width:16%;
 }
 
 .profile-picture {
@@ -60,33 +68,29 @@ body {
     margin-bottom: 25px;
 }
 
-.profile-button-message {
+.profile-button {
     height: 40px;
-    border: 1px solid var(--color-buttons-borders);
+    border: 1px solid var(--color-main-theme);
     border-radius: 4px;
-    background: var(--color-buttons-borders) 0% 0% no-repeat padding-box;
     font-family: "Open sans", sans-serif;
     font-weight: normal;
     font-size: 12px;
     letter-spacing: 1px;
+}
+
+.messageBtn {
     color: #FFFFFF;
+    background: var(--color-main-theme) 0% 0% no-repeat padding-box;
 }
 
-.profile-button-edit {
-    height: 39px;
-    border: 1px solid var(--color-buttons-borders);
-    border-radius: 4px;
+.editBtn {
     background: 0 0 no-repeat padding-box;
-    font-family: "Open sans", sans-serif;
-    font-weight: normal;
-    font-size: 12px;
-    letter-spacing: 1px;
-    color: var(--color-buttons-borders);
+    color: var(--color-main-theme);
 }
 
-.personal-info {
+.personal-info-section {
     box-sizing: border-box;
-    width: 44%;
+    margin-left: 8%;
 }
 
 .user-name {
@@ -140,7 +144,7 @@ body {
     font-family: "Open sans", sans-serif;
     font-weight: normal;
     font-size: 13px;
-    color: #39AEA9;
+    color: var(--color-main-theme);
 }
 
 .additional-info {
@@ -166,15 +170,15 @@ body {
 
 .horizontal-line-condition {
     display: block;
-    border: 3px solid #39AEA9;
+    border: 3px solid var(--color-main-theme);
     border-radius: 3px;
     margin: 0 0 20px 0;
     width: 10%;
-}   
+}
 
 .horizontal-line-docs {
     display: none;
-    border: 3px solid #39AEA9;
+    border: 3px solid var(--color-main-theme);
     border-radius: 3px;
 }
 
@@ -247,7 +251,7 @@ body {
 }
 
 .fa-circle-check {
-    color: #39AEA9;
+    color: var(--color-main-theme);
 }
 
 .sessions {
@@ -274,7 +278,7 @@ body {
 
 .dots {
     font-size: 17px;
-    color: #39AEA9;
+    color: var(--color-main-theme);
     position: absolute;
     top: 22px;
     right: 22px;
@@ -308,7 +312,7 @@ body {
 }
 
 .edit:hover, .delete:hover {
-    color: #39AEA9;
+    color: var(--color-main-theme);
 }
 
 .person-picture {
@@ -331,7 +335,7 @@ body {
     font-family: "Open sans", sans-serif;
     font-weight: normal;
     font-size: 21px;
-    color: #39AEA9;
+    color: var(--color-main-theme);
     align-content: center;
 }
 
@@ -366,7 +370,7 @@ body {
 }
 
 .fa-comment-alt {
-    color: #39AEA9;
+    color: var(--color-main-theme);
     margin-bottom: 36px;
 }
 
@@ -376,7 +380,7 @@ body {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #39AEA9;
+    background-color: var(--color-main-theme);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -397,12 +401,12 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    width: 46%;
+    width: 47%;
     margin-bottom: 45px;
 }
 
 .fa-arrow-up-wide-short {
-    color: #39AEA9;
+    color: var(--color-main-theme);
 }
 
 .session-history {
@@ -441,7 +445,7 @@ body {
     font-family: "Open sans", sans-serif;
     font-size: 16px;
     font-weight: lighter;
-    color: #39AEA9;
+    color: var(--color-main-theme);
 }
 
 .watch-exerciseBtn {
@@ -451,7 +455,7 @@ body {
     font-family: "Open sans", sans-serif;
     font-size: 16px;
     font-weight: lighter;
-    color: #39AEA9;
+    color: var(--color-main-theme);
     width: 30%;
     height: 42px;
 }
@@ -462,7 +466,7 @@ body {
 
 .form {
     width: 40%;
-    background-color: #C3E6E0;
+    background-color: var(--color-form);
     font-family: "Open sans", sans-serif;
     font-size: 14px;
     color: #818588;
@@ -496,7 +500,7 @@ body {
 
 .form-input:focus {
     outline: none;
-    border-color: #39AEA9;
+    border-color: var(--color-main-theme);
     color: #4D4F5C;
 }
 
@@ -519,4 +523,15 @@ body {
     font-size: 14px;
     outline: none;
     padding-left: 4%;
+}
+
+@media screen and (max-width: 960px) {
+    .master-profile {
+        flex-direction: column;
+        width: 100%;
+    }
+    .session-history {
+        width: 100%;
+        float: left;
+    }
 }
