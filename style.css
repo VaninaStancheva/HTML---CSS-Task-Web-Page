@@ -204,16 +204,11 @@ body {
 
 .cards-last-session {
     width: 38%;
-    position: relative;
 }
 
 .cards-container {
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 .card {
@@ -400,7 +395,7 @@ body {
     height: 836px;
 }
 
-.title-session {
+.title-history {
     margin: 0;
 }
 
@@ -528,12 +523,38 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+    .main-info {
+        width: 100%;
+    }
+
     .master-profile {
         flex-direction: column;
         width: 100%;
     }
-    .session-history {
+
+    .cards-last-session {
         width: 100%;
         float: left;
+    }
+
+    .horizontal-line-condition {
+        width: 13%;
+    }
+
+    .sessions {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .history-and-form-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .history-section {
+        width: 100%;
+    }
+
+    .form {
+        width: 85%;
     }
 }
