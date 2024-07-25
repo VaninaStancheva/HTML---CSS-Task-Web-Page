@@ -111,16 +111,17 @@ body {
     justify-content: space-between;
 }
 
+.personal-info-list-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
 .personal-info-list {
     list-style: none;
-}
-
-.first-column {
-    padding: 0;
-    margin: 0;
-}
-
-.second-column {
     padding: 0;
     margin: 0;
 }
@@ -452,7 +453,7 @@ body {
     font-size: 16px;
     font-weight: lighter;
     color: var(--color-main-theme);
-    width: 30%;
+    width: 26%;
     height: 42px;
 }
 
