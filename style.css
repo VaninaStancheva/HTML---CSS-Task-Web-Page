@@ -62,7 +62,7 @@ body {
 
 .profile-picture {
     display: inline-block;
-    height: 120px;
+    height: 12rem;
     border-radius: 50%;
     background: no-repeat padding-box;
     margin-bottom: 25px;
@@ -185,6 +185,7 @@ body {
 
 .condition-text {
     font-family: "Open sans", sans-serif;
+    font-size: 14px;
     color:#818588;
     padding-left: 2%;
 }
@@ -216,7 +217,7 @@ body {
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-sizing: border-box;
     width: 32%;
-    height: 205px;
+    height: 20rem;
     text-align: center;
     align-content: center;
     font-family: "Open sans", sans-serif;
@@ -313,8 +314,8 @@ body {
 
 .person-picture {
     display: inline-block;
-    width: 31%;
-    height: 120px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     background: no-repeat padding-box;
     background-color: white;
@@ -323,8 +324,8 @@ body {
 
 .circle {
     display: inline-block;
-    width: 32%;
-    height: 120px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     background: no-repeat padding-box #C3E6E0;
     border: 1px solid #EDEFF8;
@@ -467,8 +468,8 @@ body {
     font-family: "Open sans", sans-serif;
     font-size: 14px;
     color: #818588;
-    padding: 86px 44px 86px 76px;
-    margin-top: 68px;
+    padding: 8rem 4rem 8rem 7rem;
+    margin-top: 55px;
 }
 
 .labelStar{
@@ -486,8 +487,8 @@ body {
 }
 
 .form-input {
-    width: 78%;
-    height: 40px;
+    width: 70%;
+    height: 4rem;
     border: 2px solid #E5F5F1;
     border-radius: 4px;
     font-family: "Open sans", sans-serif;
@@ -513,7 +514,7 @@ body {
 }
 
 .form-input-red {
-    width: 78%;
+    width: 70%;
     height: 40px;
     border: 2px solid #E66341;
     border-radius: 4px;
